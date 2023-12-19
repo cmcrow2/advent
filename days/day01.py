@@ -1,4 +1,4 @@
-def calibrate():
+def calibrate(part):
   f = open("input/day01.txt", "r")
   lines = f.read().split('\n')
 
