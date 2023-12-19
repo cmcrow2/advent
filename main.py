@@ -1,4 +1,3 @@
-import days.day01 as calibrator
 import helpers.function_selector as selector
 from time import process_time
 
@@ -16,17 +15,16 @@ print("[1]")
 print("[2]\n")
 part = input("Enter Number: ")
 
-# time start
+# time start (only counts the time it takes to run the selected function)
 start = process_time()
 
-# functions here (comment out all functions you are not testing for accurate process time)
-res = selector.dict[day][part]
+# set selected function
+res = selector.dict[day]["function"](part)
 
 # time stop
 stop = process_time()
 ms = round((stop - start) * 1000, 2)
 
 # print input
-# change {day01} to whichever function you are testing
 print(f"Time to process is {ms}ms")
 print(f"Result: {res}")

@@ -1,3 +1,5 @@
+import helpers.word_to_num as word_to_num
+
 def calibrate(part):
   f = open("input/day01.txt", "r")
   lines = f.read().split('\n')
@@ -27,3 +29,7 @@ def digit_locator(str):
       break
 
   return int(res)
+
+def translate_word_to_num(str):
+  idx_map = {}
+  print(word_to_num.dict)

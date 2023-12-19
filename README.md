@@ -12,4 +12,4 @@ Currently it will crash with wrong inputs.
 
 ## Metrics (fastest recorded time)
 
-Day01 P1: 2.06ms
+Day01 P1: 4.42ms
