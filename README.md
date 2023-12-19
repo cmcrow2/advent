@@ -8,8 +8,8 @@ N/A
 CD into the py_advent
 Run the command `python3 main.py` in your terminal
 Follow the prompts **only entering the numbers**
-Currently it will crash with wrong inputs.
+Currently it will crash with wrong/unsupported inputs.
 
-## Metrics (fastest recorded time)
+## Metrics
 
-Day01 P1: 4.42ms
+**Day01 P1:** 2.26 > t < 4.76
