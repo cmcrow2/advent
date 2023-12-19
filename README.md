@@ -1,6 +1,7 @@
 ## Setup
 
 Install Dependencies:
+
 `pip install colorama`
 
 ## Running the programs individually
@@ -14,4 +15,4 @@ Install Dependencies:
 
 **Day01 P1:** 2.26ms < t < 4.76ms
 
-**Day02 P2:** 4.85ms < t < 7.34ms
+**Day01 P2:** 4.85ms < t < 7.34ms
