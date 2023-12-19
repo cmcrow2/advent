@@ -12,6 +12,6 @@ Install Dependencies:
 
 ## Metrics
 
-**Day01 P1:** 2.26 < t < 4.76
+**Day01 P1:** 2.26ms < t < 4.76ms
 
-**Day02 P2:** 4.85 < t < 7.34
+**Day02 P2:** 4.85ms < t < 7.34ms
